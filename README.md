@@ -1,1 +1,34 @@
-# python-mysql-tutorial
+# Overview
+
+In this program, I'm trying to demonstrate how to connect a MySQL database with Python to start making queries. The users are going to have the option to see some CRUD statement demonstrations in case they don't have too much experience writing queries.
+
+My Python programs connect to a MySQL database using mysql.connector. You can download it from https://www.mysql.com/products/connector/ depending on the program you are using. In this case, I downloaded the Python mysql.connector.
+
+I wanted to write this program because I think is important to give the tools and specific demonstration to someone wanting to learn
+
+MySQL using Python. I think this tutorial will help people start making basic queries using Python with MySQL.
+
+[Software Demo Video](https://www.youtube.com/watch?v=j_quC9wJuPE)
+
+# Relational Database
+
+I created a relational database for a software company called Angulo's Company.
+
+It has six tables at the moment, the client, branch, supplier, etc. The relationship between them is that we need different information from our clients or distributors to match with our employees and managers to start implementing queries.
+
+# Development Environment
+
+I used Python 3.9, MySQL, and mysql.connector.
+
+Python is a very versatile programming language to use with a database.
+
+# Useful Websites
+
+- [W3schools](https://www.w3schools.com/MySQL/default.asp)
+- [Realpython](https://realpython.com/python-mysql/)
+
+# Future Work
+
+- I need to be able to make the program recognize when a database is misspelled or doesn't exist to keep asking the user to provide a correct database name.
+- I could use some classes and methods to make the program break into pieces to use for future projects.
+- I could use some other libraries to make the program respond to different outcomes easily.
